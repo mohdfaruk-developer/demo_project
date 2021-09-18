@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testing wedsite</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0px;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .first_img{
+            width: 100%;
+            position: relative;  
+        }
+        #div_img{
+            width: 100%;
+            
+        }
+        .over_div{
+            width: 30%;
+            top: 35%;
+            left: 15px;
+            position:absolute;
+            text-align: center;
+            color: white;
+            border-radius: 10px;
+            padding: 15px 20px 25px 20px ;
+            background-color: #000;
+            opacity: 70%;
+        }
+        .over_div:hover{
+            opacity: 100%;
+            transition: .5s;
+        }
+        .first_btn{
+            width: 100%;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 10px 0px 10px 0px;
+            border-radius: 10px;
+            color: white;
+            border: hidden;
+            background-color:#4CAF50;
+        }
+        .first_btn:hover{
+            background-color: grey;
+            cursor: pointer;
+            transition: .5s;
+        }
+        .first_btn .fa{
+            font-size: 15px;
+        }
+        .first_btn1{
+            position: absolute;
+            top: 42%;
+            left: 88%;
+            margin-right: 20px;
+            border: hidden;
+            border-radius: 5px;
+            font-size: 15px;
+            padding: 13px 20px 13px 20px;
+            background-color: #000;
+            color: white;
+        }
+        .first_btn1:hover{
+            background-color: #fdf5e6;
+            color: #000;
+            font-size: 17px;
+            cursor: pointer;
+            transition: .5s;
+        }
+        .first_btn1 .fa{
+            font-size: 15px;
+        }
+
+        .second{
+            width: 100%;
+            padding-top: 70px;
+            overflow: hidden;
+            padding-bottom: 50px;
+        }
+        .sec_content{
+            width: 70%;
+            float: left;
+        }
+        .sec_img{
+            width: 30%;
+            float: left; 
+        }
+        .sec_img img{
+            float: right;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .fa{
+            font-size: 25px;
+        }
+        .x{
+            color: #4CAF50!important;
+        }
+        .x1{
+            color: #000!important;
+        }
+        .x2{
+            color: #2196F3!important;
+        }
+        .btn{
+            font-size: 18px; 
+            margin: 10px 0px 30px 15px; 
+            border: hidden; 
+            text-decoration: none; 
+            padding: 10px 15px 10px 15px; 
+            background-color: #f1f1f1!important; 
+            color: #000!important;
+        }
+        .btn:hover{
+            cursor: pointer;
+            background-color: #2196F3!important;
+            color: white;
+            transition: 0.5s;
+        }
+
+
+        .thrid{
+            width: 100%;
+            padding: 60px 0px 40px 0px;
+            background-color: #f1f1f1!important;
+            color: #000!important;
+            overflow: hidden;
+        }
+        .thr_content{
+            width: 70%;
+            float: left;
+        }
+        .thr_img{
+            width: 30%;
+            float: left;
+        }
+        .thr_img img{
+            margin-left: 30px;
+        }
+
+
+
+        .four{
+            width: 100%;
+            background-color: #616161;
+            color: #fff;
+            overflow: hidden;
+            padding: 60px 0px 40px 0px;
+        }
+        .icon{
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .icon .fa{
+            line-height: 80px;
+            font-size: 50px;
+        }
+        .icon .fa:hover{
+            font-size: 60px;
+            opacity: 60%;
+            cursor: pointer;
+        }
+        .fa-bolt{
+            color: #ff9800;
+        }
+        .fa-diamond{
+            color: #fff;
+        }
+        .fa-user{
+            color: #fdf5e6;
+        }
+        .fa-heart{
+            color: #f44336;
+        }
+        .fa-cloud{
+            color: #2196F3;
+        }
+        .fa-shield{
+            color: #ff9800;
+        }
+        .fa-camera{
+            color: #d2be0e;
+        }
+        .fa-globe{
+            color: #ffc107;
+        }
+        .fa-wifi{
+            color: #757575; 
+        }
+        .fa-battery-full{
+            color: #4CAF50;
+        }
+        .fa-hdd-o{
+            color: #00bcd4;
+        }
+        .fa-picture-o{
+            color: #e91e63;
+        }
+
+
+
+        .five{
+            width: 100%;
+            padding: 70px 0px 90px 0px;
+            overflow: hidden;
+            color: #000;
+        }
+        .tbl{
+            width: 50%;
+            float: left;
+            text-align: center;
+        }
+        .bas{
+            width: 96%;
+            margin-left: 2%;
+            border-collapse: collapse;
+            box-shadow: 4px 5px 6px #757575;
+        }
+        .bas:hover{
+            box-shadow: 7px 8px 7px #757575;
+        }
+        .bas tr{
+            border: .2px gainsboro solid;
+
+        }
+        .bas td{
+            padding: 18px 0px 18px 0px;
+            font-size: 17px;
+        }
+        .bas th{
+            padding: 35px 0px 35px 0px;    
+            font-size: 25px;
+            color: #fff;
+            background-color: #616161;
+        }
+        .pre{
+            width: 96%;
+            margin-left: 2%;
+            border-collapse: collapse;
+            box-shadow: 4px 5px 6px #757575;
+        }
+        .pre:hover{
+            box-shadow: 7px 8px 7px #757575;
+        }
+        .pre tr{
+            border: .2px gainsboro solid;
+        }
+        .pre td{
+            padding: 18px 0px 18px 0px;
+            font-size: 17px; 
+        }
+        .pre th{
+            padding: 35px 0px 35px 0px;    
+            font-size: 25px;
+            color: #fff;
+            background-color: #f44336;
+        }
+        .btl_btn:hover{
+            cursor: pointer;
+            background-color: #2196F3!important;
+            color: white;
+            transition: 0.5s;
+        }
+        .faruk{
+            width: 100%;
+            background-color: #f1f1f1;
+            color: #000;
+            text-align: center;
+            padding: 50px 0px 40px 0px;
+        }
+        .faruk .so_icon{
+            margin: 0px 0px 15px 0px;
+            word-spacing: 1px;
+           font-size: 20px;
+        }
+    </style> 
+</head>
+<body>
+
+
+   <header class="first_img">
+       <div id="div_img"><img src="image\img1.jpg" id="mg" style="min-width: 500;" alt="not found image" width="100%" height="1000"></div>
+       <div class="over_div">  
+           <p style="font-size: 25PX; margin: 20px 0px 25px 0px;">Take photos with our app</p>
+           <hr style="width: 90%; margin-left: 5%; color: gainsboro;">
+           <p style="font-size: 16PX; margin: 25px 0px 17px 0px;">Super simple installment: free of charge</p>
+           <p><button class="first_btn"> Download
+            <i class="fa fa-android " aria-hidden="true"></i> 
+            <i class="fa fa-apple "  aria-hidden="true"></i> 
+            <i class="fa fa-windows " aria-hidden="true"></i></button>
+            </p>
+       </div>
+       <button class="first_btn1" onclick="change()">Take Tour <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+   </header>
+
+
+
+   <section class="second">
+        <div class="sec_content">
+            <h1 style="font-size: 70px; font-weight: bolder;margin: 0px 0px 30px 15px;"> The App </h1>
+            <h2 style="font-size: 50px; font-weight: bold; color: #4CAF50!important; margin: 10px 0px 30px 15px;">Why buy it?</h2>
+            <p style="font-size: 20px; margin: 10px 0px 30px 15px;">
+                <span  style="font-size: 30px;">Take photos like a pro.</span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           </p>
+            <button class="btn"><i class="fa fa-download down_btn" aria-hidden="true"></i> Download Application</button> 
+            <p style="word-spacing: 1px;">
+                 <span style="font-size: 25px; margin: 10px 0px 0px 15px;"> Available for</span>
+                 <i class="fa fa-android x" aria-hidden="true"></i> 
+                 <i class="fa fa-apple x1"  aria-hidden="true"></i> 
+                 <i class="fa fa-windows x2" aria-hidden="true"></i> 
+            </p>
+        </div>
+        <div class="sec_img">
+            <img src="image\sec_img.jpg" alt="not found image" width="335" height="471">
+        </div>
+   </section>
+
+   <section class="thrid">
+        <div class="thr_img">
+            <img src="image\thi_img.jpg" alt="not found image" width="335" height="471">
+        </div>
+        <div class="thr_content">
+            <p style="font-size: 70px; margin: 10px 0px 30px 40px; font-weight: bolder;"> Clarity </p>
+            <p style="font-size: 50px; margin: 10px 0px 30px 40px; color: #f44336; font-weight: bolder;"> Pixels, who? </p>
+            <p style="font-size: 18px; margin: 10px 0px 30px 40px;">
+               <span style="font-size: 30px;" > A revolution in resolution.</span>  Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+        </div>
+   </section>
+
+
+
+   <section class="four">
+       <h1 style="font-size: 60px; margin: 0px 0px 20px 0px; font-weight: bolder; text-align: center;">
+        Features
+       </h1>
+       <p style="font-size: 16px; margin: 0px 0px 60px 0px; text-align: center;"> 
+        This app is just so lorem ipsum.
+       </p>
+       <div class="icon">
+            <i class="fa fa-bolt" aria-hidden="true"></i><h3 style="margin-bottom: 60px;">Fast</h3><br>
+            <i class="fa fa-diamond" aria-hidden="true"></i><h3 style="margin-bottom: 60px;">Sharp</h3><br>
+            <i class="fa fa-user" aria-hidden="true"></i><h3 style="margin-bottom: 60px;">Safe</h3><br>
+        </i></div>
+       <div class="icon">
+        <i class="fa fa-heart" aria-hidden="true"></i><h3 style="margin-bottom: 60px;">Loved</h3><br>
+        <i class="fa fa-cloud" aria-hidden="true"></i><h3 style="margin-bottom: 60px;">Cloud</h3><br>
+        <i class="fa fa-shield" aria-hidden="true"></i><h3 style="margin-bottom: 60px;">Stabile</h3><br>
+       </div>
+       <div class="icon">
+        <i class="fa fa-camera" aria-hidden="true"></i><h3 style="margin-bottom: 60px;">Clarity</h3><br>
+        <i class="fa fa-globe" aria-hidden="true"></i><h3 style="margin-bottom: 60px;">Globlal</h3><br>
+        <i class="fa fa-wifi" aria-hidden="true"></i><h3 style="margin-bottom: 60px;">Connected</h3><br>
+       </div>
+       <div class="icon"> 
+        <i class="fa fa-battery-full" aria-hidden="true"></i><h3 style="margin-bottom: 60px;">Power</h3><br>
+        <i class="fa fa-hdd-o" aria-hidden="true"></i><h3 style="margin-bottom: 60px;">Storage</h3><br>
+        <i class="fa fa-picture-o" aria-hidden="true"></i><h3 style="margin-bottom: 60px;">HD</h3><br>
+       </div>
+   </section>
+
+
+
+   <section class="five">
+       <h1 style="font-size: 60px; margin: 0px 0px 20px 0px; font-weight: bolder; text-align: center;">
+        Pricing
+       </h1>
+       <p style="font-size: 18px; margin: 0px 0px 60px 0px; text-align: center;">
+        Choose a pricing plan that fits your needs.
+       </p>
+       <div class="tbl">
+        <table class="bas"> 
+            <tr>
+                <th>Basic</th>
+            </tr>
+            <tr>
+                <td><b>250</b> photos</td>
+            </tr>
+            <tr>
+                <td><b>10</b> feature</td>
+            </tr>
+            <tr>
+                <td><b>No</b> Ads</td>
+            </tr>
+            <tr>
+                <td><b>Office hours</b> Support</td>
+            </tr>
+            <tr>
+                <td style="font-size: 38px; color: gray; padding: 20px 0px 20px 0px ;">$ 25</td>
+            </tr>
+            <tr>
+                <td style="padding: 20px 0px 20px 0px; background-color: #f1f1f1;">
+                    <button class="tbl_btn" style="font-size: 16px; border: hidden; text-decoration: none; padding: 15px 30px 15px 30px; background-color: #000!important; color: #f1f1f1;"><i class="fa fa-download down_btn" aria-hidden="true"></i> Download</button>
+                </td>
+            </tr>
+        </table>
+       </div>
+
+       <div class="tbl">
+        <table class="pre">
+            <tr>
+                <th>Premium</th>
+            </tr>
+            <tr>
+                <td><b>1000</b> photos</td>
+            </tr>
+            <tr>
+                <td><b>50</b> feature</td>
+            </tr>
+            <tr>
+                <td><b>No</b> Ads</td>
+            </tr>
+            <tr>
+                <td><b>Endless</b> Support</td>
+            </tr>
+            <tr>
+                <td style="font-size: 38px; color: gray; padding: 20px 0px 20px 0px ;">$ 99</td>
+            </tr>
+            <tr>
+                <td style="padding: 20px 0px 20px 0px; background-color: #f1f1f1;">
+                    <button class="tbl_btn" style="font-size: 16px; border: hidden; text-decoration: none; padding: 15px 30px 15px 30px; background-color: #000!important; color: #f1f1f1; "><i class="fa fa-download down_btn" aria-hidden="true"></i> Download</button>
+                </td>
+            </tr>
+        </table>
+       </div>
+   </section>
+
+
+   <footer class="faruk">
+       <div class="so_icon">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-snapchat" aria-hidden="true"></i>
+        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+       </div>
+       <div>
+           <p style="font-size: 15px;">Powered by Mohd Faruk</p>
+       </div>
+   </footer>
+</body>
+</html>
+<script>
+    let count=1
+    function change()
+    {
+        // alert(count)
+        var arr=["image/img1.jpg","image/img2.jpg","image/img3.jpg","image/win pic.png"]
+        let image=document.getElementById("mg").src=arr[count]
+        count++
+        if(count>=4)
+            count=0
+    }
+</script>
