@@ -2,17 +2,17 @@
 
     /* for header section  */
     .first_img{
-        width:500px;
+        width:501px;
         height: 490px;
         position: relative;  
     }
     #div_img{
         padding-top: 40px;
-        width: 500px; 
+        width: 501px; 
         height: 410px;
     }
     #div_img img{
-        width: 500px;
+        width: 501px;
         height: 410px;
     }
     .first_img .over_div{
@@ -30,7 +30,7 @@
     }
     .over_div .first_btn{
         height: 40px;
-        width: 500px;
+        width: 501px;
         font-size: 15px;
         font-weight: bold;
         border-radius: 0px;
@@ -41,7 +41,7 @@
 
     .first_img .first_btn1{
         position: static;
-        width: 500px;
+        width: 501px;
         height: 40px;
         background-color: black;
         color: white;
@@ -52,7 +52,7 @@
 
     /* for second section */
     body .second{
-        width: 500px;
+        width: 501px;
         padding-top: 20px;
         overflow: hidden;
         padding-bottom: 25px;
@@ -61,7 +61,7 @@
         width: 450px;
     }
     .second .sec_img{
-        width: 500px;
+        width: 501px;
         text-align: center;
     }
     .second .sec_img img{
@@ -72,7 +72,7 @@
 
     /* for third section  */
     body .thrid{
-        width: 500px;
+        width: 501px;
         padding-top: 20px;
         overflow: hidden;
         padding-bottom: 25px;
@@ -88,7 +88,7 @@
 
     /* for four section */
     body .four{
-        width: 500px;
+        width: 501px;
         background-color: #616161;
         color: #fff;
         overflow: hidden;
@@ -97,7 +97,7 @@
 
     /* for five section */
     body .five{
-        width: 500px;
+        width: 501px;
         padding: 20px 0px 10px 0px;
         overflow: hidden;
         color: #000;
@@ -111,7 +111,7 @@
 
     /* for footer section */
     body .faruk{
-        width: 500px;
+        width: 501px;
         background-color: #f1f1f1;
         color: #000;
         text-align: center;
