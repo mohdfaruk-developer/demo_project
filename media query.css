@@ -88,7 +88,7 @@
 
     /* for four section */
     body .four{
-        width: 100%;
+        width: 500px;
         background-color: #616161;
         color: #fff;
         overflow: hidden;
@@ -111,7 +111,7 @@
 
     /* for footer section */
     body .faruk{
-        width: 100%;
+        width: 500px;
         background-color: #f1f1f1;
         color: #000;
         text-align: center;
@@ -123,3 +123,5 @@
        font-size: 20px;
     }
 }
+
+/* for teblat */
