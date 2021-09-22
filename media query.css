@@ -1,0 +1,125 @@
+@media screen and (max-width:501px) {
+
+    /* for header section  */
+    .first_img{
+        width:500px;
+        height: 490px;
+        position: relative;  
+    }
+    #div_img{
+        padding-top: 40px;
+        width: 500px; 
+        height: 410px;
+    }
+    #div_img img{
+        width: 500px;
+        height: 410px;
+    }
+    .first_img .over_div{
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        width: 400px;
+        text-align: center;
+        color: white;
+        padding: 0px;
+        background-color:transparent;
+    }
+    .over_div p,hr{
+        display: none;
+    }
+    .over_div .first_btn{
+        height: 40px;
+        width: 500px;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 0px;
+        color: white;
+        border: hidden;
+        background-color:#4CAF50;
+    }
+
+    .first_img .first_btn1{
+        position: static;
+        width: 500px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        font-size: 17px;
+        border-radius: 0px;
+        border: 0.5px solid black;
+    }
+
+    /* for second section */
+    body .second{
+        width: 500px;
+        padding-top: 20px;
+        overflow: hidden;
+        padding-bottom: 25px;
+    }
+    .second .sec_content{
+        width: 450px;
+    }
+    .second .sec_img{
+        width: 500px;
+        text-align: center;
+    }
+    .second .sec_img img{
+        margin-top: 15px;
+        border-radius: 10px;
+        margin-right: 12%;
+    }
+
+    /* for third section  */
+    body .thrid{
+        width: 500px;
+        padding-top: 20px;
+        overflow: hidden;
+        padding-bottom: 25px;
+        background-color: #f1f1f1!important;
+        color: #000!important;
+    }
+    .thrid .thr_content{
+        width: 450px;
+    }
+    .thrid .thr_img{
+        display: none;
+    }
+
+    /* for four section */
+    body .four{
+        width: 100%;
+        background-color: #616161;
+        color: #fff;
+        overflow: hidden;
+        padding: 30px 0px 0px 0px;
+    }
+
+    /* for five section */
+    body .five{
+        width: 500px;
+        padding: 20px 0px 10px 0px;
+        overflow: hidden;
+        color: #000;
+    }
+    .five .tbl{
+        width: 94%;
+        margin-left: 3%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    /* for footer section */
+    body .faruk{
+        width: 100%;
+        background-color: #f1f1f1;
+        color: #000;
+        text-align: center;
+        padding: 25px 0px 20px 0px;
+    }
+    body .faruk .so_icon{
+        margin: 0px 0px 5px 0px;
+        word-spacing: 1px;
+       font-size: 20px;
+    }
+}

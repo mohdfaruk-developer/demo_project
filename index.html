@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>testing wedsite</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./media query.css">
     <style>
         *{
             margin: 0px;
@@ -71,6 +72,7 @@
             color: #000;
             font-size: 17px;
             cursor: pointer;
+            border: none;
             transition: .5s;
         }
         .first_btn1 .fa{
@@ -280,6 +282,20 @@
             word-spacing: 1px;
            font-size: 20px;
         }
+
+
+        /* @media screen and (max-width:500px) {
+    .first_img{
+        width:500px;
+        height: 490px;
+        position: relative;  
+    }
+    #div_img{
+        width: 500px; 
+        height: 410px;
+    }
+} */
+
     </style> 
 </head>
 <body>
@@ -291,11 +307,11 @@
            <p style="font-size: 25PX; margin: 20px 0px 25px 0px;">Take photos with our app</p>
            <hr style="width: 90%; margin-left: 5%; color: gainsboro;">
            <p style="font-size: 16PX; margin: 25px 0px 17px 0px;">Super simple installment: free of charge</p>
-           <p><button class="first_btn"> Download
+           <span><button class="first_btn"> Download
             <i class="fa fa-android " aria-hidden="true"></i> 
             <i class="fa fa-apple "  aria-hidden="true"></i> 
             <i class="fa fa-windows " aria-hidden="true"></i></button>
-            </p>
+           </span>
        </div>
        <button class="first_btn1" onclick="change()">Take Tour <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
    </header>
@@ -309,13 +325,13 @@
             <p style="font-size: 20px; margin: 10px 0px 30px 15px;">
                 <span  style="font-size: 30px;">Take photos like a pro.</span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
            </p>
-            <button class="btn"><i class="fa fa-download down_btn" aria-hidden="true"></i> Download Application</button> 
-            <p style="word-spacing: 1px;">
+            <button class="btn"><i class="fa fa-download down_btn" aria-hidden="true"></i> Download Application</button><br> 
+            <span style="word-spacing: 1px;">
                  <span style="font-size: 25px; margin: 10px 0px 0px 15px;"> Available for</span>
                  <i class="fa fa-android x" aria-hidden="true"></i> 
                  <i class="fa fa-apple x1"  aria-hidden="true"></i> 
                  <i class="fa fa-windows x2" aria-hidden="true"></i> 
-            </p>
+            </span>
         </div>
         <div class="sec_img">
             <img src="image\sec_img.jpg" alt="not found image" width="335" height="471">
@@ -443,7 +459,7 @@
         <i class="fa fa-linkedin" aria-hidden="true"></i>
        </div>
        <div>
-           <p style="font-size: 15px;">by Mohd Faruk Raza</p>
+           <p style="font-size: 15px;">Powered by Mohd Faruk</p>
        </div>
    </footer>
 </body>
