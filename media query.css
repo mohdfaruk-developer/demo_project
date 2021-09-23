@@ -1,25 +1,25 @@
-@media screen and (max-width:375px) {
+@media screen and (max-width:320px) {
 
     /* for header section  */
     body .first_img{
-        width:375px;
+        width:320px;
         height: 480px;
         position: relative;  
     }
     .first_img #div_img{
         padding-top: 40px;
-        width: 375px; 
+        width: 320px; 
         height: 400px;
     }
     #div_img img{
-        width: 375px;
+        width: 320px;
         height: 410px;
     }
     .first_img .over_div{
         position:absolute;
         top: 0px;
         left: 0px;
-        width: 375px;
+        width: 320px;
         text-align: center;
         color: white;
         padding: 0px;
@@ -30,7 +30,7 @@
     }
     .over_div .first_btn{
         height: 40px;
-        width: 375px;
+        width: 320px;
         margin-left: 0px;
         font-size: 15px;
         font-weight: bold;
@@ -42,7 +42,7 @@
 
     .first_img .first_btn1{
         position: static;
-        width: 375px;
+        width: 320px;
         height: 40px;
         background-color: black;
         color: white;
@@ -52,7 +52,7 @@
 
     /* for second section */
     body .second{
-        width: 375px;
+        width: 320px;
         padding-top: 20px;
         overflow: hidden;
         padding-bottom: 25px;
@@ -67,7 +67,7 @@
         margin: 10px 20px 0px 25px;
     }
     .second .sec_img{
-        width: 375px;
+        width: 320px;
     }
     .second .sec_img img{
         margin-top: 15px;
@@ -76,7 +76,7 @@
 
     /* for third section  */
     body .thrid{
-        width: 375px;
+        width: 320px;
         padding-top: 20px;
         overflow: hidden;
         padding-bottom: 25px;
@@ -84,7 +84,7 @@
         color: #000!important;
     }
     .thrid .thr_content{
-        width: 375px;
+        width: 320px;
     }
     .thrid .thr_content .third_content{
         text-align: justify;
@@ -96,7 +96,7 @@
 
     /* for four section */
     body .four{
-        width: 375px;
+        width: 320px;
         background-color: #616161;
         color: #fff;
         overflow: hidden;
@@ -105,7 +105,7 @@
 
     /* for five section */
     body .five{
-        width: 375px;
+        width: 320px;
         padding: 20px 0px 10px 0px;
         overflow: hidden;
         color: #000;
@@ -118,7 +118,7 @@
 
     /* for footer section */
     body .faruk{
-        width: 375px;
+        width: 320px;
         background-color: #f1f1f1;
         color: #000;
         text-align: center;
