@@ -1,3 +1,138 @@
+/* for laptop */
+
+@media screen and (max-width:1030px) {
+    body .first_img{
+        width: 1030px;
+        position: relative;  
+    }
+    .first_img #div_img{
+        width: 1030px;
+        
+    }
+    .first_img .over_div{
+        width: 30%;
+        top: 35%;
+        left: 15px;
+        position:absolute;
+        text-align: center;
+        color: white;
+        border-radius: 10px;
+        padding: 15px 20px 25px 20px ;
+        background-color: #000;
+        opacity: 70%;
+    }
+    .first_img .first_btn{
+        width: 100%;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 10px 0px 10px 0px;
+        border-radius: 10px;
+        color: white;
+        border: hidden;
+        background-color:#4CAF50;
+    }
+    .first_img .first_btn1{
+    position: absolute;
+    top: 42%;
+    left: 85%;
+    margin-right: 20px;
+    border: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 13px 20px 13px 20px;
+    background-color: #000;
+    color: white;
+    }
+
+     /* for second section */
+    body .second{
+        width: 1030px;
+        padding-top: 70px;
+        overflow: hidden;
+        padding-bottom: 50px;
+    }
+    .second .sec_content{
+        width: 70%;
+        float: left;
+    }
+    .second .sec_content .Application{
+        margin-right: 10%;
+        text-align: justify;
+    }
+    .second .sec_img{
+        width: 30%;
+        float: left; 
+    }
+    .sec_img img{
+        float: right;
+        border-radius: 10px;
+        margin-right: 20px;
+    }
+
+    /* for third section  */
+    body .thrid{
+        width: 1030px;
+        padding: 60px 0px 40px 0px;
+        background-color: #f1f1f1!important;
+        color: #000!important;
+        overflow: hidden;
+    }
+    .thrid .thr_content{
+        width: 70%;
+        float: left;
+
+    }
+    .thrid .thr_content .third_content{
+        text-align: justify;
+        margin-left: 15%;
+        margin-right: 5%;
+        margin-top: 20px;
+    }
+    .thrid .thr_img{
+        width: 30%;
+        float: left;
+    }
+    .thr_img img{
+        margin-left: 30px;
+    }
+
+    /* for four section */
+    body .four{
+        width: 1030px;
+        background-color: #616161;
+        color: #fff;
+        overflow: hidden;
+        padding: 40px 0px 0px 0px;
+    }
+
+     /* for five section */
+     body .five{
+        width: 1030px;
+        padding: 20px 0px 10px 10px;
+        overflow: hidden;
+        color: #000;
+    }
+    .five .tbl{
+        width: 46%;
+        margin-left:2%;
+        margin-bottom: 50px;
+    }
+
+     /* for footer section */
+     body .faruk{
+        width: 1030px;
+        background-color: #f1f1f1;
+        color: #000;
+        text-align: center;
+        padding: 25px 0px 20px 0px;
+    }
+    body .faruk .so_icon{
+        margin: 0px 0px 5px 0px;
+        word-spacing: 1px;
+       font-size: 20px;
+    }
+}
+
 @media screen and (max-width:375px) {
 
     /* for header section  */
@@ -130,3 +265,4 @@
        font-size: 20px;
     }
 }
+
