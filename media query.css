@@ -1,12 +1,299 @@
-/* for laptop */
+/* basic style */
 
-@media screen and (max-width:1030px) {
+*{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.first_img{
+    width: 100%;
+    position: relative;  
+}
+#div_img{
+    width: 100%;
+    
+}
+.over_div{
+    width: 30%;
+    top: 35%;
+    left: 15px;
+    position:absolute;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 20px 25px 20px ;
+    background-color: #000;
+    opacity: 70%;
+}
+.over_div:hover{
+    opacity: 100%;
+    transition: .5s;
+}
+.first_btn{
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+    color: white;
+    border: hidden;
+    background-color:#4CAF50;
+}
+.first_btn:hover{
+    background-color: grey;
+    cursor: pointer;
+    transition: .5s;
+}
+.first_btn .fa{
+    font-size: 15px;
+}
+.first_btn1{
+    position: absolute;
+    top: 42%;
+    left: 88%;
+    margin-right: 20px;
+    border: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 13px 20px 13px 20px;
+    background-color: #000;
+    color: white;
+}
+.first_btn1:hover{
+    background-color: #fdf5e6;
+    color: #000;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    transition: .5s;
+}
+.first_btn1 .fa{
+    font-size: 15px;
+}
+
+.second{
+    width: 100%;
+    padding-top: 70px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.sec_content{
+    width: 70%;
+    float: left;
+}
+.sec_img{
+    width: 30%;
+    float: left; 
+}
+.sec_img img{
+    float: right;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.fa{
+    font-size: 25px;
+}
+.x{
+    color: #4CAF50!important;
+}
+.x1{
+    color: #000!important;
+}
+.x2{
+    color: #2196F3!important;
+}
+.btn{
+    font-size: 18px; 
+    margin: 10px 0px 30px 15px; 
+    border: hidden; 
+    text-decoration: none; 
+    padding: 10px 15px 10px 15px; 
+    background-color: #f1f1f1!important; 
+    color: #000!important;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #2196F3!important;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.thrid{
+    width: 100%;
+    padding: 60px 0px 40px 0px;
+    background-color: #f1f1f1!important;
+    color: #000!important;
+    overflow: hidden;
+}
+.thr_content{
+    width: 70%;
+    float: left;
+}
+.thr_img{
+    width: 30%;
+    float: left;
+}
+.thr_img img{
+    margin-left: 30px;
+}
+
+
+
+.four{
+    width: 100%;
+    background-color: #616161;
+    color: #fff;
+    overflow: hidden;
+    padding: 60px 0px 40px 0px;
+}
+.icon{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.icon .fa{
+    line-height: 80px;
+    font-size: 50px;
+}
+.icon .fa:hover{
+    font-size: 60px;
+    opacity: 60%;
+    cursor: pointer;
+}
+.fa-bolt{
+    color: #ff9800;
+}
+.fa-diamond{
+    color: #fff;
+}
+.fa-user{
+    color: #fdf5e6;
+}
+.fa-heart{
+    color: #f44336;
+}
+.fa-cloud{
+    color: #2196F3;
+}
+.fa-shield{
+    color: #ff9800;
+}
+.fa-camera{
+    color: #d2be0e;
+}
+.fa-globe{
+    color: #ffc107;
+}
+.fa-wifi{
+    color: #757575; 
+}
+.fa-battery-full{
+    color: #4CAF50;
+}
+.fa-hdd-o{
+    color: #00bcd4;
+}
+.fa-picture-o{
+    color: #e91e63;
+}
+
+
+
+.five{
+    width: 100%;
+    padding: 30px 0px 50px 0px;
+    overflow: hidden;
+    color: #000;
+}
+.tbl{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.bas{
+    width: 96%;
+    margin-left: 2%;
+    border-collapse: collapse;
+    box-shadow: 4px 5px 6px #757575;
+}
+.bas:hover{
+    box-shadow: 7px 8px 7px #757575;
+}
+.bas tr{
+    border: .2px gainsboro solid;
+
+}
+.bas td{
+    padding: 18px 0px 18px 0px;
+    font-size: 17px;
+}
+.bas th{
+    padding: 35px 0px 35px 0px;    
+    font-size: 25px;
+    color: #fff;
+    background-color: #616161;
+}
+.pre{
+    width: 96%;
+    margin-left: 2%;
+    border-collapse: collapse;
+    box-shadow: 4px 5px 6px #757575;
+}
+.pre:hover{
+    box-shadow: 7px 8px 7px #757575;
+}
+.pre tr{
+    border: .2px gainsboro solid;
+}
+.pre td{
+    padding: 18px 0px 18px 0px;
+    font-size: 17px; 
+}
+.pre th{
+    padding: 35px 0px 35px 0px;    
+    font-size: 25px;
+    color: #fff;
+    background-color: #f44336;
+}
+.btl_btn:hover{
+    cursor: pointer;
+    background-color: #2196F3!important;
+    color: white;
+    transition: 0.5s;
+}
+.faruk{
+    width: 100%;
+    background-color: #f1f1f1;
+    color: #000;
+    text-align: center;
+    padding: 50px 0px 40px 0px;
+}
+.faruk .so_icon{
+    margin: 0px 0px 15px 0px;
+    word-spacing: 1px;
+   font-size: 20px;
+}
+.sec_content .Application{
+    font-size: 20px; 
+    margin: 10px 0px 30px 20px;
+    text-align: justify;
+}
+.thr_content .third_content{
+    font-size: 18px; 
+    margin: 10px 10px 30px 40px;
+    text-align: justify;
+}
+
+
+/* for laptop */
+@media screen and (max-width:1165px) {
     body .first_img{
-        width: 1030px;
+        width: 1165px;
         position: relative;  
     }
     .first_img #div_img{
-        width: 1030px;
+        width: 1165px;
         
     }
     .first_img .over_div{
@@ -46,7 +333,7 @@
 
      /* for second section */
     body .second{
-        width: 1030px;
+        width: 1165px;
         padding-top: 70px;
         overflow: hidden;
         padding-bottom: 50px;
@@ -56,7 +343,7 @@
         float: left;
     }
     .second .sec_content .Application{
-        margin-right: 10%;
+        margin-right: 1%;
         text-align: justify;
     }
     .second .sec_img{
@@ -66,12 +353,12 @@
     .sec_img img{
         float: right;
         border-radius: 10px;
-        margin-right: 20px;
+        margin-right: 30px;
     }
 
     /* for third section  */
     body .thrid{
-        width: 1030px;
+        width: 1165px;
         padding: 60px 0px 40px 0px;
         background-color: #f1f1f1!important;
         color: #000!important;
@@ -98,7 +385,7 @@
 
     /* for four section */
     body .four{
-        width: 1030px;
+        width: 1165px;
         background-color: #616161;
         color: #fff;
         overflow: hidden;
@@ -107,8 +394,7 @@
 
      /* for five section */
      body .five{
-        width: 1030px;
-        padding: 20px 0px 10px 10px;
+        width: 1165px;
         overflow: hidden;
         color: #000;
     }
@@ -120,7 +406,7 @@
 
      /* for footer section */
      body .faruk{
-        width: 1030px;
+        width: 1165px;
         background-color: #f1f1f1;
         color: #000;
         text-align: center;
@@ -133,7 +419,281 @@
     }
 }
 
-@media screen and (max-width:375px) {
+/* for 768px (tablet) */
+@media screen and (max-width:768px) {
+    body .first_img{
+        width: 768px;
+        position: relative;  
+    }
+    .first_img #div_img{
+        width: 768px;
+        
+    }
+    .first_img .over_div{
+        width: 30%;
+        top: 35%;
+        left: 15px;
+        position:absolute;
+        text-align: center;
+        color: white;
+        border-radius: 10px;
+        padding: 15px 20px 25px 20px ;
+        background-color: #000;
+        opacity: 70%;
+    }
+    .first_img .first_btn{
+        width: 100%;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 10px 0px 10px 0px;
+        border-radius: 10px;
+        color: white;
+        border: hidden;
+        background-color:#4CAF50;
+    }
+    .first_img .first_btn1{
+    position: absolute;
+    top: 42%;
+    left: 80%;
+    margin-right: 20px;
+    border: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 13px 20px 13px 20px;
+    background-color: #000;
+    color: white;
+    }
+
+     /* for second section */
+    body .second{
+        width: 768px;
+        padding-top: 70px;
+        overflow: hidden;
+        padding-bottom: 50px;
+    }
+    .second .sec_content{
+        width: 70%;
+        float: left;
+    }
+    .second .sec_content .Application{
+        margin-right: 25%;
+        text-align: justify;
+    }
+    .second .sec_img{
+        width: 30%;
+        float: left; 
+    }
+    .sec_img img{
+        float: right;
+        border-radius: 10px;
+        margin-right: 25px;
+    }
+
+    /* for third section  */
+    body .thrid{
+        width: 768px;
+        padding: 60px 0px 40px 0px;
+        background-color: #f1f1f1!important;
+        color: #000!important;
+        overflow: hidden;
+    }
+    .thrid .thr_content{
+        width: 70%;
+        float: left;
+
+    }
+    .thrid .thr_content .third_content{
+        text-align: justify;
+        margin-left: 30%;
+        margin-right: 5%;
+        margin-top: 20px;
+    }
+    .thrid .thr_img{
+        width: 30%;
+        float: left;
+    }
+    .thr_img img{
+        margin-left: 30px;
+    }
+
+    /* for four section */
+    body .four{
+        width: 768px;
+        background-color: #616161;
+        color: #fff;
+        overflow: hidden;
+        padding: 40px 0px 0px 0px;
+    }
+
+     /* for five section */
+     body .five{
+        width: 768px;
+        padding: 20px 0px 30px 0px;
+        overflow: hidden;
+        color: #000;
+    }
+    .five .tbl{
+        width: 46%;
+        margin-left:2%;
+        margin-bottom: 50px;
+    }
+
+     /* for footer section */
+     body .faruk{
+        width: 768px;
+        background-color: #f1f1f1;
+        color: #000;
+        text-align: center;
+        padding: 25px 0px 20px 0px;
+    }
+    body .faruk .so_icon{
+        margin: 0px 0px 5px 0px;
+        word-spacing: 1px;
+       font-size: 20px;
+    }
+}
+
+/* for 425px (L mobile)*/
+@media screen and (min-width:375px) and (max-width:425px) {
+
+    /* for header section  */
+    body .first_img{
+        width:425px;
+        height: 480px;
+        position: relative;  
+    }
+    .first_img #div_img{
+        padding-top: 40px;
+        width: 425px; 
+        height: 400px;
+    }
+    #div_img img{
+        width: 425px;
+        height: 410px;
+    }
+    .first_img .over_div{
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        width: 425px;
+        text-align: center;
+        color: white;
+        padding: 0px;
+        background-color:transparent;
+    }
+    .over_div p,hr{
+        display: none;
+    }
+    .over_div .first_btn{
+        height: 40px;
+        width: 425px;
+        margin-left: 0px;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 0px;
+        color: white;
+        border: hidden;
+        background-color:#4CAF50;
+    }
+
+    .first_img .first_btn1{
+        position: static;
+        width: 425px;
+        height: 40px;
+        background-color: black;
+        margin-right: 0px;
+        color: white;
+        font-size: 17px;
+        border-radius: 0px;
+    }
+
+    /* for second section */
+    body .second{
+        width: 425px;
+        padding-top: 20px;
+        overflow: hidden;
+        padding-bottom: 25px;
+    }
+    .second .sec_content{
+        width: 100%;
+        
+    }
+    .second .sec_content .Application{
+        text-align: justify;
+        font-size: 18px; 
+        margin: 10px 15px 0px 25px;
+    }
+    .second .sec_img{
+        width: 425px;
+        text-align: center;
+       
+    }
+    .second .sec_img img{
+        margin-top: 15px;
+        border-radius: 10px;
+        margin-right: 0px;
+        float: none;
+    }
+
+    /* for third section  */
+    body .thrid{
+        width: 425px;
+        padding-top: 20px;
+        overflow: hidden;
+        padding-bottom: 25px;
+        background-color: #f1f1f1!important;
+        color: #000!important;
+    }
+    .thrid .thr_content{
+        width: 425px;
+    }
+    .thrid .thr_content .third_content{
+        text-align: justify;
+        margin: 10px 25px 30px 25px;
+    }
+    .thrid .thr_img{
+        display: none;
+    }
+
+    /* for four section */
+    body .four{
+        width: 425px;
+        background-color: #616161;
+        color: #fff;
+        overflow: hidden;
+        padding: 30px 0px 0px 0px;
+    }
+
+    /* for five section */
+    body .five{
+        width: 425px;
+        padding: 20px 0px 10px 0px;
+        overflow: hidden;
+        color: #000;
+    }
+    .five .tbl{
+        width: 92%;
+        margin-left:4%;
+        margin-bottom: 30px;
+    }
+
+    /* for footer section */
+    body .faruk{
+        width: 425px;
+        background-color: #f1f1f1;
+        color: #000;
+        text-align: center;
+        padding: 25px 0px 20px 0px;
+    }
+    body .faruk .so_icon{
+        margin: 0px 0px 5px 0px;
+        word-spacing: 1px;
+       font-size: 20px;
+    }
+}
+
+/* for 375px (m mobile) */
+@media screen and (min-width:320px) and (max-width:375px) {
 
     /* for header section  */
     body .first_img{
@@ -180,6 +740,7 @@
         width: 375px;
         height: 40px;
         background-color: black;
+        margin-right: 0px;
         color: white;
         font-size: 17px;
         border-radius: 0px;
@@ -207,6 +768,7 @@
     .second .sec_img img{
         margin-top: 15px;
         border-radius: 10px;
+        margin-right: 35px;
     }
 
     /* for third section  */
@@ -266,3 +828,138 @@
     }
 }
 
+/* for 320px (s mobile)*/
+@media screen and (max-width:320px) {
+
+    /* for header section  */
+    body .first_img{
+        width:320px;
+        height: 480px;
+        position: relative;  
+    }
+    .first_img #div_img{
+        padding-top: 40px;
+        width: 320px; 
+        height: 400px;
+    }
+    #div_img img{
+        width: 320px;
+        height: 410px;
+    }
+    .first_img .over_div{
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        width: 320px;
+        text-align: center;
+        color: white;
+        padding: 0px;
+        background-color:transparent;
+    }
+    .over_div p,hr{
+        display: none;
+    }
+    .over_div .first_btn{
+        height: 40px;
+        width: 320px;
+        margin-left: 0px;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 0px;
+        color: white;
+        border: hidden;
+        background-color:#4CAF50;
+    }
+
+    .first_img .first_btn1{
+        position: static;
+        width: 320px;
+        height: 40px;
+        background-color: black;
+        margin-right: 0px;
+        color: white;
+        font-size: 17px;
+        border-radius: 0px;
+    }
+
+    /* for second section */
+    body .second{
+        width: 320px;
+        padding-top: 20px;
+        overflow: hidden;
+        padding-bottom: 25px;
+    }
+    .second .sec_content{
+        width: 370px;
+        
+    }
+    .second .sec_content .Application{
+        text-align: justify;
+        font-size: 18px; 
+        margin: 10px 65px 0px 20px;
+    }
+    .second .sec_img{
+        width: 320px;
+    }
+    .second .sec_img img{
+        margin-top: 15px;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+
+    /* for third section  */
+    body .thrid{
+        width: 320px;
+        padding-top: 20px;
+        overflow: hidden;
+        padding-bottom: 25px;
+        background-color: #f1f1f1!important;
+        color: #000!important;
+    }
+    .thrid .thr_content{
+        width: 320px;
+    }
+    .thrid .thr_content .third_content{
+        text-align: justify;
+        margin: 10px 25px 30px 25px;
+    }
+    .thrid .thr_img{
+        display: none;
+    }
+
+    /* for four section */
+    body .four{
+        width: 320px;
+        background-color: #616161;
+        color: #fff;
+        overflow: hidden;
+        padding: 30px 0px 0px 0px;
+    }
+
+    /* for five section */
+    body .five{
+        width: 320px;
+        padding: 20px 0px 10px 0px;
+        overflow: hidden;
+        color: #000;
+    }
+    .five .tbl{
+        width: 92%;
+        margin-left:4%;
+        margin-bottom: 30px;
+    }
+
+    /* for footer section */
+    body .faruk{
+        width: 320px;
+        background-color: #f1f1f1;
+        color: #000;
+        text-align: center;
+        padding: 25px 0px 20px 0px;
+    }
+    body .faruk .so_icon{
+        margin: 0px 0px 5px 0px;
+        word-spacing: 1px;
+       font-size: 20px;
+    }
+}
